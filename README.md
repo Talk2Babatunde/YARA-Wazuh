@@ -6,6 +6,8 @@ This project demonstrates how YARA, a powerful open-source malware pattern-match
 
 The setup simulates a real-world Security Operations Center (SOC) within a safe lab environment, combining endpoint threat hunting, log analysis, and alert correlation across multiple virtual machines.
 
+<img width="976" height="658" alt="image4" src="https://github.com/user-attachments/assets/3fdcc0af-9bd2-474c-b6e3-7cc295c07830" />
+
 📘 Overview – What I Built and Why
 
 Threat actors continuously evolve their tactics to evade detection. This project was designed to showcase how open-source tools like YARA and Wazuh can work together to improve malware detection and visibility in a SOC environment.
