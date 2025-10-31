@@ -1,0 +1,1 @@
+Add-Content "C:\Program Files (x86)\ossec-agent\yara_events.log" "Suspicious_PowerShell_Script detected at $(Get-Date)"
