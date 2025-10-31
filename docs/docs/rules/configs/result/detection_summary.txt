@@ -1,0 +1,9 @@
+Detection Summary Report
+-------------------------
+Date: 2025-10-29
+Rule ID: 110051
+Severity: 12 (High)
+Event: Possible malware detected by YARA
+Description: Suspicious PowerShell activity detected and correlated in Wazuh SIEM.
+
+Outcome: Successfully validated end-to-end YARA + Wazuh integration.
