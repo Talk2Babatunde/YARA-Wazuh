@@ -1,0 +1,12 @@
+# Ignore VS Code settings
+.vscode/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore temp and cache files
+*.tmp
+*.bak
+logs/*.old
+__pycache__/

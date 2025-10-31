@@ -1,0 +1,8 @@
+Wazuh Agent Configuration Notes
+-------------------------------
+- Installed on Windows 10 VM.
+- YARA output logs redirected to:
+  C:\Program Files (x86)\ossec-agent\yara_logs\yara_output.log
+- Agent forwards detection logs to Wazuh Manager on Ubuntu via port 1514/udp.
+- Confirmed communication using:
+  sudo tail -f /var/ossec/logs/ossec.log | grep 'Agent connected'

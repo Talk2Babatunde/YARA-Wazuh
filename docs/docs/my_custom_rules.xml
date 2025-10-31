@@ -1,0 +1,15 @@
+<group name="yara,">
+    <rule id="110050" level="10">
+        <decoded_as>yara</decoded_as>
+        <description>YARA Detection: Suspicious PowerShell Script</description>
+        <group>yara,malware-detection,</group>
+        <match>Suspicious_PowerShell_Script</match>
+    </rule>
+
+    <rule id="110051" level="12">
+        <decoded_as>yara</decoded_as>
+        <description>Possible malware detected by YARA</description>
+        <group>yara,local,</group>
+        <match>Possible malware detected by YARA</match>
+    </rule>
+</group>
