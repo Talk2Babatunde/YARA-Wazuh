@@ -1,0 +1,1 @@
+sudo tail -f /var/ossec/logs/alerts/alerts.log | grep 110050
