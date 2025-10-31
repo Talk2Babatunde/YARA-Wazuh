@@ -1,0 +1,1 @@
+& "C:\Tools\YARA\yara64.exe" "C:\YARA_Test\custom_rule.yar" "C:\YARA_Test" | Out-File -FilePath "C:\Program Files (x86)\ossec-agent\yara_output.log" -Encoding ASCII
